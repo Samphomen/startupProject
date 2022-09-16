@@ -13,19 +13,19 @@ const Intro = () => {
                     </div>
                     <ul className='nav-links'>
                         <li>
-                            <button className='link-btn'>Farmer</button>
+                            <button className='link-btn'><a>Farmer</a></button>
                         </li>
                         <li>
-                            <button className='link-btn'>Factories</button>
+                            <button className='link-btn'><a>Factories</a></button>
                         </li>
                         <li>
-                            <button className='link-btn'>Technology</button>
+                            <button className='link-btn'><a>Technology</a></button>
                         </li>
                         <li>
-                            <button className='link-btn'>SDG</button>
+                            <button className='link-btn'><a>SDG</a></button>
                         </li>
                         <li>
-                            <button className='link-btn'>Company</button>
+                            <button className='link-btn'><a>Company</a></button>
                         </li>
                     </ul>
                     <button className='nav-btn'>Call For A Demo</button>

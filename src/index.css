@@ -70,6 +70,12 @@
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.link-btn:hover {
+    border: 6px solid green
 }
 
 .nav-btn {
@@ -159,6 +165,11 @@
     border-radius: 30px;
     position: relative;
     overflow: hidden;
+    transition: all 5s ease;
+}
+
+.a-card.g:hover {
+    transform: translateY(-50%)
 }
 
 .a-img {
@@ -220,6 +231,11 @@
     border-radius: 30px;
     position: relative;
     overflow: hidden;
+    transition: all 5s ease;
+}
+
+.b-card.g:hover {
+    transform: translateY(-50%)
 }
 
 .b-img {
@@ -250,6 +266,7 @@
 /* PRoduct */
 .product {
     background-color: rgba(255, 153, 0, 0.363);
+    height: 98vh;
     padding-top: 5px;
     padding-left: 350px;
     padding-right: 350px;
@@ -276,23 +293,92 @@
 .p-img1 {
     border: 4px solid grey;
     position: relative;
-
+    width: 200px;
+    bottom: 330px;
+    left: 400px;
+    text-align: center;
 }
 
 .p-img2 {
     border: 4px solid grey;
     position: relative;
+    width: 200px;
+    bottom: 270px;
+    left: 50px;
+    text-align: center;
 }
 
 .p-img3 {
     border: 4px solid grey;
     position: relative;
+    width: 200px;
+    bottom: 230px;
+    left: 360px;
+    text-align: center;
 }
 
 
 /* Contact */
 
 .c {
-    height: 100vh;
-    position: relative;
+    height: 60vh;
+}
+
+.c-wrapper {
+    padding: 30px 5px;
+    display: flex;
+}
+
+.c-desc {
+    flex: 1;
+    width: 40px;
+}
+
+.c-p1 {
+    margin: 20px 0px;
+    line-height: 30px;
+}
+
+/* .c-links {
+    display: block;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+} */
+
+.c-links1 {
+    list-style-type: none;
+    margin: 20px 0px;
+
+}
+
+.c-links-btn {
+    margin: 20px 0px;
+    cursor: pointer;
+    font-weight: 10;
+}
+
+.c-links-btn:hover {
+    color: red;
+}
+
+.c-contacts {
+    flex: 1;
+    margin: 0px 10px;
+}
+
+.c-ctitle {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 300;
 }

@@ -8,7 +8,7 @@ const About = () => {
             <div className='a'>
                 <div className="a-left">
                     <div className="a-card bg"></div>
-                    <div className="a-card">
+                    <div className="a-card g">
                         <img
                             src={Img5}
                             alt=''
@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 <div className='b-right'>
                     <div className="b-card bg"></div>
-                    <div className="b-card">
+                    <div className="b-card g">
                         <img
                             src={Img4}
                             alt=''
