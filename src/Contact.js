@@ -2,7 +2,8 @@ import React from 'react'
 import Img6 from './Images/img6.png'
 import { GoLocation } from 'react-icons/go'
 import { HiPhone } from 'react-icons/hi'
-import { AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineMail, AiOutlineTwitter, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
+import { FiFacebook } from 'react-icons/fi'
 
 const Contact = () => {
     return (
@@ -12,10 +13,10 @@ const Contact = () => {
                     <img src={Img6} className='c-img' />
                     <p className='c-p1'>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident.</p>
                     <div className='c-links'>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <button className='c-btn-icons'><FiFacebook /></button>
+                        <button className='c-btn-icons'><AiOutlineTwitter /></button>
+                        <button className='c-btn-icons'><AiFillYoutube /></button>
+                        <button className='c-btn-icons'><AiFillLinkedin /></button>
                     </div>
                 </div>
                 <div className='c-contacts'>
@@ -45,7 +46,7 @@ const Contact = () => {
                     <div className="c-info">
                         <div className="c-info-item">
                             <img
-                                src={GoLocation}
+                                src={<GoLocation />}
                                 alt=""
                                 className="c-icon"
                             />
@@ -53,7 +54,7 @@ const Contact = () => {
                         </div>
                         <div className="c-info-item">
                             <img
-                                src={HiPhone}
+                                src={<HiPhone />}
                                 alt=""
                                 className="c-icon"
                             />
@@ -61,7 +62,7 @@ const Contact = () => {
                         </div>
                         <div className="c-info-item">
                             <img
-                                src={AiOutlineMail}
+                                src={<AiOutlineMail />}
                                 alt=""
                                 className="c-icon"
                             />

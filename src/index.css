@@ -292,6 +292,7 @@
 
 .p-img1 {
     border: 4px solid grey;
+    border-radius: 10px;
     position: relative;
     width: 200px;
     bottom: 330px;
@@ -301,6 +302,7 @@
 
 .p-img2 {
     border: 4px solid grey;
+    border-radius: 10px;
     position: relative;
     width: 200px;
     bottom: 270px;
@@ -310,6 +312,7 @@
 
 .p-img3 {
     border: 4px solid grey;
+    border-radius: 10px;
     position: relative;
     width: 200px;
     bottom: 230px;
@@ -326,6 +329,7 @@
 
 .c-wrapper {
     padding: 30px 5px;
+    margin: 0px 20px;
     display: flex;
 }
 
@@ -339,20 +343,28 @@
     line-height: 30px;
 }
 
-/* .c-links {
-    display: block;
-    justify-self: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    text-align: center;
-    height: 100%;
-    align-items: center;
-} */
-
 .c-links1 {
     list-style-type: none;
     margin: 20px 0px;
 
+}
+
+/* .c-links {
+    margin: 10px;
+} */
+
+.c-btn-icons {
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 10px 0 10px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    transition: all 1s ease-in;
+}
+
+.c-btn-icons:hover {
+    background-color: black;
 }
 
 .c-links-btn {
@@ -374,6 +386,8 @@
     font-weight: 300;
     font-size: 30px;
 }
+
+
 
 .c-info-item {
     display: flex;
